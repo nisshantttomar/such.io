@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+body {
+
+  padding: 25px;
+  background: url('../images/back.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1520px 800px;
+
+}
+
+#btn {
+  width: 181px;
+  margin: auto
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#yoo {
+  width: 486px;
+  margin: auto;
+}
+
+#yoo a {
+  text-decoration: none;
+  width: 431px;
+  margin: auto;
+  color: white;
+  font-size: 6em;
+
+}
+
+#yup {
+  background-color: black;
+  height:697px;
+  width: 650px;
+  border: 2px black solid;
+  background: url('../images/gali.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 600px;
+
+}
+
+#yup h3 {
+  text-align: center;
+  color: white;
+  margin-top: 318px;
+}
+
+@media screen and (max-width:389px) {
+
+
+  #yoo a {
+    text-decoration: none;
+    width: 431px;
+    margin: auto;
+    color: white;
+    font-size: 4em;
+  }
+
+  #yup h3 {
+    /* text-align: center; */
+    color: white;
+    width: 383px;
+    margin-top: 8em;
+  }
+
+  #yup {
+    background-color: black;
+    height: 42em;
+    width: 42em;
+    border: 2px black solid;
+    background: url(../images/gali.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -227px;
+    margin-left: -24px;
+  }
+
+  body {
+    padding: 25px;
+    background: url(../images/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: 674px 100vh;
+  }
+
+}
